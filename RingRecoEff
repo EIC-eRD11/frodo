@@ -1,0 +1,59 @@
+{
+//========= Macro generated from object: TPave/Legend of markers/lines/boxes to represent obj's
+//========= by ROOT version5.30/03
+   
+   TLegend *leg = new TLegend(0.708054,0.706989,0.95302,0.924731,NULL,"brNDC");
+   leg->SetBorderSize(1);
+   leg->SetTextFont(62);
+   leg->SetLineColor(1);
+   leg->SetLineStyle(1);
+   leg->SetLineWidth(1);
+   leg->SetFillColor(19);
+   leg->SetFillStyle(1001);
+   TLegendEntry *entry=leg->AddEntry("Graph","C=0","lpf");
+   entry->SetFillColor(1);
+   entry->SetFillStyle(1001);
+   entry->SetLineColor(1);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry=leg->AddEntry("Graph","C=10000","lpf");
+   entry->SetFillColor(1);
+   entry->SetFillStyle(1001);
+   entry->SetLineColor(1);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(2);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry=leg->AddEntry("Graph","C=15000","lpf");
+   entry->SetFillColor(1);
+   entry->SetFillStyle(1001);
+   entry->SetLineColor(1);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(3);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry=leg->AddEntry("Graph","C=20000","lpf");
+   entry->SetFillColor(1);
+   entry->SetFillStyle(1001);
+   entry->SetLineColor(1);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(4);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry=leg->AddEntry("Graph","C=25000","lpf");
+   entry->SetFillColor(1);
+   entry->SetFillStyle(1001);
+   entry->SetLineColor(1);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(5);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   leg->Draw();
+}
